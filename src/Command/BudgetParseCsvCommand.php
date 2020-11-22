@@ -2,6 +2,8 @@
 
 namespace App\Command;
 
+use App\Service\BankStatement\Finder;
+use App\Service\BankStatement\Parser;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -12,6 +14,26 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 class BudgetParseCsvCommand extends Command
 {
     protected static $defaultName = 'budget:parse-csv';
+    /**
+     * @var Finder
+     */
+    private $bankStatementFinder;
+    /**
+     * @var Parser
+     */
+    private $parser;
+
+    /**
+     * BudgetParseCsvCommand constructor.
+     */
+    public function __construct(Finder $bankStatementFinder, Parser $parser)
+    {
+        $this->bankStatementFinder = $bankStatementFinder;
+
+        parent::__construct();
+        $this->parser = $parser;
+    }
+
 
     protected function configure()
     {
@@ -35,7 +57,20 @@ class BudgetParseCsvCommand extends Command
             // ...
         }
 
-        $io->success('You have a new command! Now make it your own! Pass --help to see your options.');
+        $io->title('Bank Statement Parser');
+
+        $io->section('Find all bank statements to parse...');
+
+        $files = $this->bankStatementFinder->getCsvFiles();
+
+        $io->text($files);
+
+        $io->section('Attempting to parse bank statements now...');
+
+        array_map(function($f) use ($io) {
+            $dataArray = $this->parser->parseFile($f);
+            $io->table(Parser::HEADERS, $dataArray);
+        }, $files);
 
         return Command::SUCCESS;
     }

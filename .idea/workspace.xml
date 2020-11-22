@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:composer" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:composer" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:symfony" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce5c33be-b1e4-4c4a-b800-426c75fab7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    <list default="true" id="ce5c33be-b1e4-4c4a-b800-426c75fab7e0" name="Default Changelist" comment="Initial Recommit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/BudgetParseCsvCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/BudgetParseCsvCommand.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
@@ -91,6 +129,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ke6dI0uGG1HytcHzfmVpuKTG5z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -110,6 +151,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Service/BankStatement" />
+      <recent name="$PROJECT_DIR$/src/Service" />
       <recent name="$PROJECT_DIR$/var/uploads" />
     </key>
   </component>
@@ -121,11 +164,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606048796799</updated>
-      <workItem from="1606048798603" duration="2583000" />
+      <workItem from="1606048798603" duration="10563000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Recommit">
+      <created>1606051677177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606051677177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Recommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Recommit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1093" y="454" key="#com.intellij.ide.util.MemberChooser" timestamp="1606054638761">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1093" y="454" key="#com.intellij.ide.util.MemberChooser/2560.23.2560.1417/640.-1057.1920.1057/2560.-1057.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1606054638761" />
+    <state x="1018" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606055696462">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1018" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.23.2560.1417/640.-1057.1920.1057/2560.-1057.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1606055696462" />
+    <state x="911" y="464" key="NewPhpClassDialog" timestamp="1606053276999">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="911" y="464" key="NewPhpClassDialog/2560.23.2560.1417/640.-1057.1920.1057/2560.-1057.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1606053276999" />
+    <state x="945" y="346" key="run.anything.popup" timestamp="1606052000636">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="346" key="run.anything.popup/2560.23.2560.1417/640.-1057.1920.1057/2560.-1057.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1606052000636" />
   </component>
 </project>
