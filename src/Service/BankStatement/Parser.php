@@ -3,9 +3,6 @@
 
 namespace App\Service\BankStatement;
 
-
-use Symfony\Component\Console\Style\SymfonyStyle;
-
 class Parser
 {
 
